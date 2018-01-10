@@ -51,13 +51,13 @@ public class MainActivity extends AppCompatActivity {
 
 
                     //kondisi ketika panjang dan lebar nya tidak kosong
-                    int hasil = (aIndo + aIngs + aMtk + aKomp) % 4 ;
+                    int hasil = (aIndo + aIngs + aMtk + aKomp) / 4 ;
                     int total = aIndo + aIngs + aMtk + aKomp;
 
 
                     //menampilkan hasil hitung ke widget textview
 
-                    txtHasil.setText("Rata Rata nilai anda adalah " + hasil + "dengan total " + total);
+                    txtHasil.setText("Rata Rata nilai anda adalah " + hasil + " dengan total " + total);
                 }
             }
         });
