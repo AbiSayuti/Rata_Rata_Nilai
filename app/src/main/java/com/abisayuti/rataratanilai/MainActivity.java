@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
                     //menampilkan hasil hitung ke widget textview
 
-                    txtHasil.setText("Rata Rata nilai anda adalah " + hasil "dengan total " + total);
+                    txtHasil.setText("Rata Rata nilai anda adalah " + hasil + "dengan total " + total);
                 }
             }
         });
